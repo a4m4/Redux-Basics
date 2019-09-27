@@ -8,4 +8,8 @@ What is Redux ??
 Redux Lifecycle:
 
         Action Creator - Action - Dispatch - Reducers - State
+        
+Now Considering an Example of Insurance company, our redux lifecycle will be :
+
+        Person Dropping the form - the form - form reciever - departments - compiled department data
 
