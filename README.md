@@ -13,3 +13,7 @@ Now Considering an Example of Insurance company, our redux lifecycle will be :
 
         Person Dropping the form - the form - form reciever - departments - compiled department data
 
+Rules of Reducers : 
+        
+        Always return some value
+        control the undefined error, by putting some default values or empty arrays in variable
