@@ -26,3 +26,7 @@ Rules of Reducers :
         
         Always return some value
         control the undefined error, by putting some default values or empty arrays in variable
+
+Installing Libraries of React-Redux Project :
+        
+        npm install --save react react-redux
