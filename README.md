@@ -39,3 +39,17 @@ We have to create provider by importing  { Provider } from 'react-redux', { crea
                 <App />
          </Provider>,
          document.querySelector('#root'));
+
+The Connect Function :
+
+        import { connect } from 'react-redux';        //Imporitng
+        export default connect( mapStateToProps )( COMPONENT );               //At the end of component
+        
+        We always going to import connect at the top
+        We always going to call connect and pass in our component as 2nd function call
+        We always going to define mapStateToProps
+        mapStateToProps is always get 1st argument = state and we always going to return an object that is going to show up some props inside of our component.
+        
+               const mapStateToProps = (state) => {
+                return { songs : state.song }
+                };
