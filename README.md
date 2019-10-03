@@ -32,8 +32,10 @@ Installing Libraries of React-Redux Project :
         npm install --save react react-redux
 
 We Have to combine reducers.
-We have to create provider by importing  { Provider } from 'react-redux', d then on your index file, wrap your App component in Provider as :
+We have to create provider by importing  { Provider } from 'react-redux', { createStore } from 'redux' and then on your index file, wrap your App component in Provider as :
               
+         ReactDOM.render(
          <Provider store={createStore(reducers)}>
                 <App />
-         </Provider>
+         </Provider>,
+         document.querySelector('#root'));
